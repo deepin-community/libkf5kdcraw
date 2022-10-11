@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    15.12.0
+</version>
+
+<headers>
+    /usr/include/KF5/KDCRAW
+    /usr/include/KF5/libkdcraw_version.h
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5KDcraw.so
+</libs>
+
+</descriptor>

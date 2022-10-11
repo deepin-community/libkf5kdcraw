@@ -1,0 +1,451 @@
+libkf5kdcraw (21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:36:07 +0900
+
+libkf5kdcraw (21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Added myself to the uploaders.
+  * Update list of installed files.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 28 Apr 2021 13:01:07 +0900
+
+libkf5kdcraw (20.12.0-1) unstable; urgency=medium
+
+  * New upstream release (20.12.0).
+  * Refresh copyright information.
+  * Bump Standards-Version to 4.5.1, no change required.
+  * Bump debhelper compatibility level to 13.
+  * Update project homepage.
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+  * Added myself to the uploaders.
+  * Build with hardening=+all build hardening flag.
+  * Borrow minimal upstream signing key from k3b.
+  * Refresh upstream metadata.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 27 Dec 2020 01:29:36 +0100
+
+libkf5kdcraw (20.04.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update watch file to the new release-service location.
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Add Rules-Requires-Root: no.
+  * Bump Standards-Version to 4.5.0, no changes required.
+  * Add the configuration for the CI on salsa.
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 02 Aug 2020 17:01:33 +0200
+
+libkf5kdcraw (19.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump Standards-Version to 4.4.0, no changes required.
+  * Bump the debhelper compatibility to 11:
+    - bump the debhelper build dependency to 11~
+    - bump compat to 11
+  * Switch from dhmk to dh with kf5 & pkgkde_symbolshelper addons, and
+    as-needed linking.
+  * Update the patches:
+    - upstream_Fix-build-with-libraw-0.19.patch: drop, backported from upstream
+  * Drop unused 'testsuite' autopkgtest.
+  * Add Build-Depends-Package in symbols file.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 28 Sep 2019 09:39:53 +0200
+
+libkf5kdcraw (18.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Switch Vcs-* fields to salsa.debian.org.
+  * Bump the libraw-dev build dependency to >= 0.18, as indicated by the
+    upstream build system.
+  * Backport upstream commit f40ebe30dca1cfadc8171364ac325532e6c3f229 to fix
+    build with libraw >= 0.19; patch upstream_Fix-build-with-libraw-0.19.patch.
+    (Closes: #905035)
+  * Fix typo in the version dependency of the symbols file.
+  * Bump Standards-Version to 4.2.1, no changes required.
+  * Use https for Format in copyright.
+  * Mark libkf5kdcraw5 as "Multi-Arch: same".
+
+ -- Pino Toscano <pino@debian.org>  Tue, 04 Sep 2018 22:59:21 +0200
+
+libkf5kdcraw (17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump Standards-Version to 4.1.2, no changes required.
+  * Simplify watch file, and switch it to https.
+  * Remove kde-runtime exclusion from shlibdeps, since it is no more injected
+    automatically.
+  * Remove pkg-config dependency in libkf5kdcraw-dev, since it is no more
+    needed now.
+  * Remove the gwenview, and kdegraphics-thumbnailers breaks in libkf5kdcraw5,
+    since they are not needed.
+
+ -- Pino Toscano <pino@debian.org>  Mon, 18 Dec 2017 16:13:30 +0100
+
+libkf5kdcraw (17.08.1-1) experimental; urgency=medium
+
+  * New upstream release (17.08.1)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Bump group breaks (17.08)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 22:41:23 +0200
+
+libkf5kdcraw (17.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 05 Sep 2017 14:04:14 +0000
+
+libkf5kdcraw (17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:42:43 +0000
+
+libkf5kdcraw (17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:24:40 +0000
+
+libkf5kdcraw (17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:24:20 +0000
+
+libkf5kdcraw (17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:24:49 +0000
+
+libkf5kdcraw (16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:50:51 +0000
+
+libkf5kdcraw (16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 17:03:11 +0000
+
+libkf5kdcraw (16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:24:32 +0000
+
+libkf5kdcraw (16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:31:57 +0000
+
+libkf5kdcraw (16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:54:51 +0000
+
+libkf5kdcraw (16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:41:06 +0000
+
+libkf5kdcraw (16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:08:10 +0000
+
+libkf5kdcraw (16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:50:24 +0000
+
+libkf5kdcraw (16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 11:37:12 +0000
+
+libkf5kdcraw (16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 15 Jun 2016 14:45:47 +0000
+
+libkf5kdcraw (16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 May 2016 11:28:29 +0000
+
+libkf5kdcraw (16.04.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 13:01:57 +0200
+
+libkf5kdcraw (16.04.0-1) experimental; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 08:56:05 +0200
+
+libkf5kdcraw (15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:50 +0100
+
+libkdcraw (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.08.0).
+  * Remove upstream patch: libraw0.16.1_compatibility.diff
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 22:30:31 +0200
+
+libkdcraw (4:15.04.3-1) unstable; urgency=medium
+
+  * Upload to unstable
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.04.0).
+
+  [ Scott Kitterman ]
+  * Urgency high for RC bug fix
+  * Add debian/patches/libraw0.16.1_compatibility.diff from upstream to fix
+    compatibility issues with libraw 0.16.1 and later (Closes: #788975)
+    - Bump mimimum libraw version in debian/control
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Jul 2015 00:33:19 -0400
+
+libkdcraw (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 08:52:34 +0100
+
+libkdcraw (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove unstable from watch file, uscan fails with
+    remote site does not even have current version
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:35:49 -0800
+
+libkdcraw (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 15:40:31 +0100
+
+libkdcraw (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  [ Philip Muškovac ]
+  * New upstream release candidate.
+  * Fix watch urls for new release location.
+  * Update Vcs urls for the new repository location.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+  [ Jonathan Riddell ]
+  * PPA build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 13:19:29 +0100
+
+libkdcraw (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 19:54:32 +0200
+
+libkdcraw (4:4.13.1-2) unstable; urgency=medium
+
+  * Drop obsolete cmake option -DENABLE_LCMS2=ON as that's now the only
+    supported version. (Closes: #749933) Thanks to Jonathan Riddell
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 26 Jul 2014 19:15:59 +0200
+
+libkdcraw (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 20:14:23 +0200
+
+libkdcraw (4:4.12.3-2) unstable; urgency=medium
+
+  * Remove libraw references from copyright file.
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 13 May 2014 15:59:58 +0200
+
+libkdcraw (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+  * New upstream release.
+  * Remove patch: libkdcraw_CVE-2013-143x.diff, upstream removed
+    embedded libraw code.
+  * Add libraw-dev as build-dep.
+  * Soversion bump for libkdcraw.
+  * Update install files.
+  * Add symbols file for the new soversion.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:05:47 +0100
+
+libkdcraw (4:4.11.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Enable build failures on missing symbols.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * Do not disable an empty test set.
+  * Add autopkgtests.
+  * Add abi-compliance-checker info.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jan 2014 13:45:09 -0300
+
+libkdcraw (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 12:38:19 +0100
+
+libkdcraw (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Remove patches already applied by upstream.
+  * Update symbols file.
+  * Update lintian-override.
+  * Refresh patch.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 12:14:38 +0200
+
+libkdcraw (4:4.10.5-2) unstable; urgency=low
+
+  * Team upload.
+  * Add libkdcraw_CVE-2013-143x.diff to fix multiple vulnerabilities
+    (Closes: #721239, #721340).
+    - CVE-2013-1438.
+    - CVE-2013-1439.
+    Thanks Scott Kitterman for the patch.
+  * Add missing line break in debian/copyright.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 01 Oct 2013 15:48:33 -0300
+
+libkdcraw (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * New patch: libkdcraw_CVE-2013-2126.diff. (Closes: #711317)
+  * New patch: libkdcraw_CVE-2013-2127.diff.
+  * Merge 4:4.8.4-2 from sid.
+  * Add lintian-override for libraw.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 14:44:51 +0200
+
+libkdcraw (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
+  * Update vcs fields.
+  * Add myself to uploaders.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 13:48:23 +0200
+
+libkdcraw (4:4.10.2-3) experimental; urgency=low
+
+  [ Pino Toscano ]
+  * Add the pkg-config build dependency.
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 29 Apr 2013 01:21:53 +0200
+
+libkdcraw (4:4.10.2-2) experimental; urgency=low
+
+  [ Pino Toscano ]
+  * Bump the kde-sc-dev-latest and kdelibs5-dev build dependencies to 4.10.
+  * Minor description change in libkdcraw22.
+  * Switch from LCMS 1 to LCMS 2:
+    - change the liblcms1-dev build dependency to liblcms2-dev
+    - pass -DENABLE_LCMS2=ON to cmake
+
+ -- Sune Vuorela <sune@debian.org>  Sat, 13 Apr 2013 14:13:20 +0000
+
+libkdcraw (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release
+  * Soname change in libkdcraw
+  * Update uploaders
+
+  [ Maximiliano Curia ]
+  * Add missing authors file refered in the documentation
+  * Update debian/copyright file
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 15:59:41 +0000
+
+libkdcraw (4:4.8.4-2) unstable; urgency=low
+
+  * New patch: libkdcraw_CVE-2013-2126.diff. (Closes: #711317).
+  * Bump Standards-Version to 3.9.4.
+  * Update vcs fields.
+  * Update uploaders field.
+  * Add myself to uploaders.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 20 Jun 2013 15:10:38 +0200
+
+libkdcraw (4:4.8.4-1) unstable; urgency=low
+
+  * New upstream release
+  * Update symbols file
+  * Update install files
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 17 Jun 2012 21:51:00 +0200
+
+libkdcraw (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 10:28:54 +0100
+
+libkdcraw (4:4.7.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Dec 2011 23:43:49 +0100
+
+libkdcraw (4:4.7.2-1) experimental; urgency=low
+
+  [ José Manuel Santamaría Lema ]
+  * Initial release. Start from the Ubuntu packaging, thanks!
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:45:41 -0300
