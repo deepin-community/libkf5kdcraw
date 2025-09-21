@@ -1,3 +1,10 @@
+libkf5kdcraw (21.08.0-1deepin1) unstable; urgency=medium
+
+  * fix: libraw has changed its api so compilation of this package is
+    prevented
+
+ -- sisungo <sisungo@icloud.com>  Sun, 21 Sep 2025 15:54:08 +0800
+
 libkf5kdcraw (21.08.0-1) unstable; urgency=medium
 
   [ Norbert Preining ]

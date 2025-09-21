@@ -1,0 +1,12 @@
+--- libkf5kdcraw-21.08.0.orig/src/kdcraw.cpp
++++ libkf5kdcraw-21.08.0/src/kdcraw.cpp
+@@ -357,8 +357,8 @@ bool KDcraw::extractRAWData(const QStrin
+     d->setProgress(0.3);
+ 
+     raw.imgdata.params.output_bps  = 16;
+-    raw.imgdata.params.shot_select = shotSelect;
++    raw.imgdata.rawparams.shot_select = shotSelect;
+     ret                            = raw.unpack();
+ 
+     if (ret != LIBRAW_SUCCESS)
+     {
